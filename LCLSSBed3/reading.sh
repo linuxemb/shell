@@ -1,8 +1,11 @@
 #!/bin/bash 
 
+#################  Read from command line 
 ## n1 --> only accetp a singal charactoer before exiting 
 #  -s silence read,  
-read -n1 -p "Do you like to continue" answer
+# -t timeout 
+#read -n1 -p "Do you like to continue" answer
+read -t 5  -p "Do you like to continue" answer ## wait for 5 sec
 case  $answer in
 	Y|y)echo 
 		echo "fine contnue..";;
@@ -41,8 +44,8 @@ line 9:-b) echo "fount the -bopoint";;
 line 10:-c) echo "fount the -c opoint";;
 line 11:*) echo "$1 is not an option ";;
 line 12:esac
-line 13:shift
-line 14:done
-line 15:
-Finished processing file
+#line 13:shift
+#line 14:done
+#line 15:
+#Finished processing file
 

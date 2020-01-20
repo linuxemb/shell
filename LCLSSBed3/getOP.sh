@@ -1,5 +1,8 @@
 
 #!/bin/shell
+
+#### getops optstring variable
+
 while getopts ae:f:hd:s:qx: option
 do
         case "${option}"

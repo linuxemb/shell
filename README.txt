@@ -1,3 +1,8 @@
+
+pdf book
+http://inf.ocs.ku.ac.th/Download/Wiley.Linux.Command.Line.and.Shell.Scripting.Bible.May.2008.pdf
+
+
 README.txt - Linux Command Line and Shell Scripting Bible - edition 3 bash shell scripts.
 
   Thank you for purchasing the Linux Command Line and Shell Scripting Bible (edition 3)!
